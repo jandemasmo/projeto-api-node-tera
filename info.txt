@@ -1,0 +1,5 @@
+server.js - se conectar com o servidor (local ou externo) através da função .listen().
+app.js - iniciar a API e importar as principais informações do projeto como o express, cors e express.json(), além de definir a rota principal de conexão com o banco de dados. No caso atual, não temos um banco de dados, mas sim um arquivo JSON simulando um banco de dados.
+movieRoutes - definir o nome de cada rota e qual função será chamada quando aquela rota for acessada. A implementação estará no movieController
+movieController - manipular dados e definir a lógica da nossa API, ou seja, como vai receber a requisição e qual vai ser a resposta da nossa API.
+Dentro da pasta model vai ter o arquivo que vai conectar com o banco de dados. No exemplo atual é um JSON e não um banco de dados real.
